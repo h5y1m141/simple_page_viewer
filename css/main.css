@@ -1,0 +1,31 @@
+body{
+  font-size:16px;
+  font-weight:bold;
+  }
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6,
+.col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11 {
+  background: #7abcff; /* Old browsers */
+  background: -moz-linear-gradient(top,  #7abcff 0%, #60abf8 44%, #4096ee 100%); /* Firefox3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7abcff), color-stop(44%,#60abf8), color-stop(100%,#4096ee)); /* Chrome, Safari4+ */
+  background: -webkit-linear-gradient(top,  #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Chrome10+, Safari5.1+ */
+  background: -o-linear-gradient(top,  #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Opera11.10+ */
+  background: -ms-linear-gradient(top,  #7abcff 0%,#60abf8 44%,#4096ee 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 ); /* IE6-9 */
+  font-size:16px;
+  padding:15px;
+  font-weight:bold;
+  border-radius:15px;
+  color:#fff;
+}
+.container{
+  background-color:#FFF2D0;
+  border-radius:15px;
+}
+.row{
+  background-color:#D6F4BD;
+  border-radius:15px;
+  }
+div{
+  margin:30px 0;
+}
