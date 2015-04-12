@@ -1,0 +1,39 @@
+#header {
+    text-align:center;
+}
+
+.navbar {
+    text-align:center;
+}
+.navbar ul {
+    display:inline-block;
+}
+.navbar li {
+    float:left;
+}
+.navbar li + li {
+    margin-left:20px;
+}
+
+footer {
+    background-color: #444;
+    width:100%;
+    height: 120px;
+}
+
+.center {
+    text-align:center;
+}
+
+
+footer {
+    background-color: #444;
+    width:100%;               
+    height: 120px;            
+    color: #ffffff;
+}
+.header-menu-item {
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
