@@ -31,12 +31,9 @@
           <div class="col-xs-2"></div>
           <div class="col-xs-8">
             <ul class="nav navbar-nav">
-              <li class="active header-menu-item"><a href="#">Home</a></li>
-              <li class="header-menu-item"><a href="#">About</a></li>
-              <li class="header-menu-item"><a href="#">動画講座</a></li>
-              <li class="header-menu-item"><a href="#">講師紹介</a></li>
-              <li class="header-menu-item"><a href="#">生徒作品</a></li>
-              <li class="header-menu-item"><a href="#">コラム</a></li>
+              <li class="header-menu-item" ng-repeat="item in menuItems">
+                <a href="{{ item.link }}">{{ item.title }}</a>
+              </li>
             </ul>
           </div>
           <div class="col-xs-4"></div>
@@ -49,9 +46,11 @@
           <h3>講座1日目 - デッサン初級</h3>
           <p>人物画を描いてみましょう。</p>
           <p>スポットライトがあります。光源に注意しましょう。</p>
-          <div>
-            <img src="http://news.walkerplus.com/article/56985/314481_615.jpg" class="img-thumbnail" alt="姉さん">
-          </div>
+          <img ng-src="{{selected.img}}" alt="{{ selectedPictures.description}} " />
+          <button ng-click="selectPicture(0)">1番の写真に切り替える</button>
+          <button ng-click="selectPicture(1)">2番の写真に切り替える</button>
+          <button ng-click="selectPicture(2)">3番の写真に切り替える</button>
+          <button ng-click="selectPicture(3)">4番の写真に切り替える</button>
           <div style="margin:10px">
             <table class="table table-striped  table-bordered  table-hover">
               <thead>
